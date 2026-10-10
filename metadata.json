@@ -1,0 +1,6 @@
+{
+  "name": "Jumanji: Welcome to the Jungle - 16-Bit Arcade",
+  "description": "An interactive 16-bit retro arcade action-adventure game based on Jumanji: Welcome to the Jungle featuring 4 unique avatars, forearm tattoo lives, sky-drop respawns, 5 movie-accurate stages, and canvas 2D gameplay.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

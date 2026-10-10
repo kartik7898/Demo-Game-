@@ -1,0 +1,55 @@
+import { LevelConfig } from '../types/game';
+import { LEVEL_DIALOGUES } from './dialogueScript';
+
+export const LEVELS: LevelConfig[] = [
+  {
+    id: 1,
+    name: 'The Bazaar & Motorcycle Chase',
+    subtitle: 'Stage 1: Sunlit Marketplace',
+    objective: 'Fend off Van Pelt\'s raiders and defeat the Lead Assassin on the armored motorcycle!',
+    bossName: 'Lead Assassin (Armored Bike)',
+    length: 3200,
+    theme: 'bazaar',
+    dialogues: LEVEL_DIALOGUES[1],
+  },
+  {
+    id: 2,
+    name: 'The Jaguar Fortress & Jungle Trail',
+    subtitle: 'Stage 2: Ancient Ruins & Swamp',
+    objective: 'Dodge poison blowdarts, leap quicksand pits, survive hippos, and decipher the Cartographer\'s Stone Wheel!',
+    bossName: 'Alpha Hippo & Snake Totem',
+    length: 3500,
+    theme: 'fortress',
+    dialogues: LEVEL_DIALOGUES[2],
+  },
+  {
+    id: 3,
+    name: 'The Canyons & Bighorn Rhino Stampede',
+    subtitle: 'Stage 3: Gorge of the Behemoths',
+    objective: 'Sprint ahead of the unstoppable stampede of Albino Bighorn Rhinos! Throw weapons to blast canyon rockfalls!',
+    bossName: 'Titan Bighorn Patriarch',
+    length: 3600,
+    theme: 'canyons',
+    dialogues: LEVEL_DIALOGUES[3],
+  },
+  {
+    id: 4,
+    name: 'The Transportation Hangar & Chopper Escape',
+    subtitle: 'Stage 4: Secret Military Airfield',
+    objective: 'Scavenge 3 vintage helicopter parts under sniper crossfire, assemble the chopper, and soar over the peaks!',
+    bossName: 'Heavy Gunner Squad Leader',
+    length: 3400,
+    theme: 'hangar',
+    dialogues: LEVEL_DIALOGUES[4],
+  },
+  {
+    id: 5,
+    name: 'The Jaguar Statue - Final Stand',
+    subtitle: 'Stage 5: Pinnacle of Jaguar Rock',
+    objective: 'Conquer Russell Van Pelt, mount the ancient scaffolding, insert the Jewel of Jumanji, and SHOUT JUMANJI!',
+    bossName: 'Russell Van Pelt (Possessed)',
+    length: 3800,
+    theme: 'jaguar_statue',
+    dialogues: LEVEL_DIALOGUES[5],
+  },
+];
